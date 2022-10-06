@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A feedback page</title>
+</head>
+<body>
+    <form action="google.com">
+        <fieldset> 
+            <legend> Your Details: </legend>
+            <br/>
+            <label>
+                Name: 
+                <input type = "text" name = "name" size = "30" maxlength="50">
+            </label>
+            <br/>
+            <br/>
+            <label>
+                Email: 
+                <input type = "email" name = "email" size = "30" maxlength="50">
+            </label>
+        </fieldset>
+        <br/>
+        <br/>
+        <fieldset> 
+            <legend> Your Review: </legend>
+            <br/>
+            <label>
+            How did you hear about us: 
+            </label>
+            <select name = "sources">
+                <option value = "Google" selected = "selected"> Google </option>
+                <option value = "Facebook" selected = "selected"> Facenook </option>
+                <option value = "Yahoo" selected = "selected"> Yahoo </option>
+                <option value = "Instagram" selected = "selected"> Instagram </option>
+                <option value = "TikTok" selected = "selected"> TikTok </option>
+            </select>
+            <br/><br/>
+            <label>
+            Would you visit us again?
+            </label><br/>
+            <input type="radio" name = "visit-again">
+            <label for = "yes"> Yes </label>
+            <input type="radio" name = "visit-again">
+            <label for = "no"> No </label>
+            <input type="radio" name = "visit-again">
+            <label for = "maybe"> Maybe </label>
+            <br/><br/>
+            <label> Comments: </label>
+            <br/>
+            <textarea name = "comments" cols = "100" rows = "10"> </textarea>
+            <br/><br/>
+            <input type="checkbox" name = "subscribe" checked = "checked">
+            <label> Sign up for email updates</label>
+            <br/><br/>
+            <input type = "submit" value = "submit" size="30">
+        </fieldset>
+    </form>
+</body>
+</html>

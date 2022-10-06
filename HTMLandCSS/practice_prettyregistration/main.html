@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Poetry Workshops</h1>
+    <p> We will be conductin a number of poetry workshops and symposiums throughout the year.</p>
+    <p> Please note that the following events are free to memebers</p>
+    <ul class = "freeevents" id="events">
+        <li>A Poetic Perspective</li>
+        <li>Walt Whitman at War</li>
+        <li>Found Poems and Outsider Poetry</li>
+    </ul>
+    <table class = "dates">
+        <tr class = "head">
+            <th></th>
+            <th>New York</th>
+            <th>Chicago</th>
+            <th>San Francisco</th>
+        </tr>
+        <tr>
+            <th scope = 'row'>A Poetic Perspective</th>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+        </tr>
+        <tr>
+            <th scope = 'row'>Walt Whitman at War</th>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+        </tr>
+        <tr>
+            <th scope = 'row'>Found Poems and Outsider Poetry</th>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+        </tr>
+        <tr>
+            <th scope = 'row'>Natural Death: An Exploration</th>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+            <td> Sat, 4 Feb 2012 <br/>11am-2pm</td>
+        </tr>       
+    </table>
+    <br/>
+    <br/>
+    <form action = "www.google.com" method = "post">
+        <fieldset>
+            <legend>
+                Register Your Interest
+            </legend>
+            <p>
+                <label class = "title" for="name">Your Name</label>
+                <input class = "text" name = "name" id = "name"><br/><br/>
+                <label class = "title" for="email">Your Email</label>
+                <input class = "text" name = "email" id = "emal"><br/>
+            </p>
+            <p>
+                <label for="location" class = "title">Your closest center</label>
+                <select name = "location" id = "location">
+                    <option value = "ny">New York</option>
+                    <option value = "il">Chicago</option>
+                    <option value = "ca">San Francisco</option>
+                </select>                
+            </p>
+            <p>
+                <label for="membership" class = "title">Are you a member?</label>
+                <label><input type = "radio" name = "meber" value = "yes"/>Yes</label>
+                <label><input type = "radio" name = "meber" value = "no"/>No</label>
+            </p>
+        </fieldset>
+        <p>
+            <label class = "submit"><input type = "submit" value = "register"/></label>
+        </p>
+    </form>
+</body>
+</html>

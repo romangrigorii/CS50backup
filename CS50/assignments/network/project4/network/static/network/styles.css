@@ -1,0 +1,88 @@
+
+.likeid{
+    width : 25px;
+    height : 25px;
+    cursor: pointer;
+}
+
+.userinpost{
+    cursor: pointer;
+}
+
+
+#profpic {
+    width : 100px;
+    height : 100px;
+    float: left;    
+    margin: 0 15px 0 0;
+}
+
+#profpicsmall {
+    width : 50px;
+    height : 50px;
+    float: left;    
+    margin: 0 10px 0 0;
+    align-self: auto;
+}
+
+#bio {
+    font-style: oblique;
+    width : 2000px;
+    height : 100px;
+}
+
+#userinfo {
+    margin-left: 40px;
+    margin-top: 20px;
+    border-left-width: 10px;
+    border-top-width: 10px;
+}
+
+#postsubmit {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#posts-view {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#newpost{
+    width : 600px;
+    height : 110px;
+    border : 1px;
+    text-align: left; 
+    white-space: wrap;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top : 5px;
+    display: inline;
+    /* The line below will deal with line breaks */
+    overflow-wrap: break-word; 
+}
+
+#filledsub{
+    background-color: rgb(50, 200, 150);
+    color : rgb(255, 255, 0);
+    width : 70px;
+    height : 50px;
+    border-radius: 5px;
+    height : auto;
+    position: 50%;
+}
+
+#postlist{
+    background-color: rgb(195, 255, 229);
+    height : 100px;
+    width : 700px;
+}
+
+#header{
+    color: rgb(175, 255, 220);
+}
+
+#commentstext{
+    cursor: pointer;
+}
+

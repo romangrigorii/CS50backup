@@ -1,0 +1,25 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+<div id = "userinfo">
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" id = "profpic" alt = "profile picture">
+    <div id = "biodiv">
+        <b>bio</b>
+        <div id = "bio">
+            <text>No bio provided.</text>
+        </div>
+    </div>
+    <div id = "followerinfo"></div>
+</div>
+<br>
+<div id = "postsubmit"> 
+    <textarea type = "text" placeholder="Write something about your day..." id = "newpost"></textarea>
+    <button id = "filledsub">Post</button>
+</div >
+<div id = "folunfol-view" style = "display:none">
+</div>
+
+<div id = "posts-view">
+</div>
+
+{% endblock %}
